@@ -1,4 +1,13 @@
-# bpr-prpr-heroku
+# prpr-for-private
+
+
+
+
+This repo will be deleted very soon. If I need this repo, I will fork from original prpr.
+
+
+
+
 
 A template to create and deploy your [prpr](https://github.com/mzp/prpr/) on slack.
 
