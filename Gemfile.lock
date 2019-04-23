@@ -1,8 +1,3 @@
-PATH
-  remote: plugins
-  specs:
-    prpr-mention_comment (0.1.1)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -18,6 +13,8 @@ GEM
       octokit
       sinatra
     prpr-checklist (0.1.0)
+      prpr
+    prpr-mention_comment (0.1.1)
       prpr
     prpr-slack (0.1.1)
       prpr
@@ -41,7 +38,7 @@ PLATFORMS
 DEPENDENCIES
   prpr
   prpr-checklist
-  prpr-mention_comment (= 0.1.1)!
+  prpr-mention_comment
   prpr-slack
 
 BUNDLED WITH
