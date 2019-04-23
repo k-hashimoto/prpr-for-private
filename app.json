@@ -1,0 +1,21 @@
+{
+  "description": "Prpr is pull requests' reaction bot.",
+  "env": {
+    "SLACK_WEBHOOK_URL": {
+      "description": "incoming webhook url of slack."
+    },
+    "GITHUB_ACCESS_TOKEN": {
+      "description": "github access token for your bot"
+    },
+    "TZ": {
+      "description": "Timezone.",
+      "value": "Asia/Tokyo"
+    },
+    "SECRET_TOKEN": {
+      "description": "A secret token for verifying payloads from GitHub.",
+      "generator": "secret"
+    }
+  },
+  "keywords": ["bot", "github"],
+  "name": "prpr"
+}
